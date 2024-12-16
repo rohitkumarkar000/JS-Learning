@@ -29,12 +29,12 @@
 // const Players = ["Ronaldo" , 'Messi' , 'Ramos' , 'Van Djik'];
 // console.log(Players);
 
-const MyObject = {
-    myAge : 21,
-    myName : "Rohit",
-}
+// const MyObject = {
+//     myAge : 21,
+//     myName : "Rohit",
+// }
 
-console.log(MyObject);
+// console.log(MyObject);
 
 //TypeOf Val: 
 
@@ -44,3 +44,21 @@ console.log(MyObject);
 // String = "String"
 
 
+// ----------------------------------------------------------
+
+// Memory 
+
+// Primitive Type (Stack) & Non Primitive Type (Heap)
+
+// let userOne = {
+//     email : "fsfgd@gmail.com",
+//     phone : 9891,
+// }
+// let userTwo = userOne;
+
+// userOne.email = 'rohit@google.com'
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+// console.log(userTwo);
