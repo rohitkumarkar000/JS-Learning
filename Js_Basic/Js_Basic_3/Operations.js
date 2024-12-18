@@ -4,8 +4,8 @@
 // // // console.log(number1 + number2);
 
 
-// // const num1 = 98
-// // const num2 = 7
+const num1 = 98
+const num2 = 7
 
 // // // const sum = num1 + num2
 // // // console.log("this is the sum :", sum);
@@ -33,6 +33,10 @@
 
 // // // const comparison = num1 <= num2  (TRUE)
 // // // console.log(comparison);
+
+// const exponential = num1**num2 
+// console.log(exponential);
+
 
 
 // Basic Calculator
@@ -62,3 +66,4 @@
 // const result = calculator(num1 , num2 , operator);
 
 // console.log(`this is  ${result}`);
+
