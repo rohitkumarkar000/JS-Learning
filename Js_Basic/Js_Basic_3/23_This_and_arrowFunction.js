@@ -32,4 +32,11 @@
 
 // bomb()
 
-cosnt 
+// const addTwo = (num1 , num2) => {        
+//     return num1 + num2   
+// }
+// console.log(addTwo(9,7));
+
+const addTwo = (num1 , num2) =>   num1 + num2  // We can skip {} if we have only one line of code to execute    This technique is mainly used in React
+
+console.log(addTwo(9,7));
