@@ -4,8 +4,8 @@
 // // // console.log(number1 + number2);
 
 
-const num1 = 98
-const num2 = 7
+// const num1 = 98
+// const num2 = 7
 
 // // // const sum = num1 + num2
 // // // console.log("this is the sum :", sum);
@@ -67,3 +67,39 @@ const num2 = 7
 
 // console.log(`this is  ${result}`);
 
+// console.log("vbgn");
+
+
+// const odd = {}
+
+// function oddEven(num) {
+//     if (num / 2 == 0) {
+        
+//         console.log("number is even");
+//     }
+//     else{
+//         console.log("number is odd");
+//     }
+// }
+// oddEven(8)
+
+function even(number) {
+   return number % 2 == 0;
+}
+
+function odd(number) {
+  return number % 2 !== 0;
+}
+
+function checkOddEven(number) {
+    if (even(number)) {
+        console.log(`${number} is even`);
+    }
+    else if (odd(number)) {
+console.log(` ${number} is odd`);
+    }
+    else {
+        console.log(`number is not Valid`);
+    }
+}
+checkOddEven(12);
