@@ -1,0 +1,11 @@
+// JavaScript is always synchronous 
+// Execution occurs one by one 
+
+// Execution flow
+
+// console.log(1);  it will execute first 
+// console.log(2);  Then this 
+
+//  Blocking Code - Blocks the flow of the whole code
+// Non Blocking Code - Doesnt Block Execution
+
